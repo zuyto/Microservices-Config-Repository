@@ -1,5 +1,5 @@
 ConnectionStrings: 
-    MicroservicesMonitoringConnection: Data Source=sqlserver;Initial Catalog=Microservices.Monitoring;User ID=sa;Password=Password1234
+    MicroservicesMonitoringConnection: Data Source=sqlserver;Initial Catalog=Microservices.Monitoring;User ID=sa;Password=Password1234;Encrypt=False;TrustServerCertificate=False
 ElasticApm:
     SecretToken: 
     ServerUrls: http://apm-server:8200
