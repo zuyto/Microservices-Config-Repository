@@ -1,0 +1,22 @@
+ServicesUrl:
+    PoliciesApiUrl: http://Microservices.Demo.Policy.API/api/pricing  
+    ProductsApiUrl: http://Microservices.Demo.Product.API/api/pricing  
+RabbitMQSettings:
+    Username: admin
+    Password: admin
+    Port: 5672
+    VirtualHost: /
+    Hostnames: 
+        - microservices.demo.rabbitmq    
+    RequestTimeout: 10
+    PublishConfirmTimeout: 1
+    RecoveryInterval: 1
+    PersistentDeliveryMode: true
+    AutoCloseConnection: true
+    AutomaticRecovery: true
+    TopologyRecovery: true
+ElasticApm:
+    SecretToken: 
+    ServerUrls: http://microservices.demo.apm-server:8200
+    ServiceName: Microservices.Demo.Report.API
+    Environment: production
