@@ -1,8 +1,8 @@
 ConnectionStrings: 
     ReportConnection: Data Source=microservices.demo.policy.db;Initial Catalog=Microservices.Demo.Policy;Persist Security Info=True;User ID=sa;Password=Password1234;Encrypt=false;
 ServicesUrl:
-    PoliciesApiUrl: http://Microservices.Demo.Policy.API/api/pricing  
-    ProductsApiUrl: http://Microservices.Demo.Product.API/api/pricing  
+    PoliciesApiUrl: http://Microservices.Demo.Policy.API/api/Policies  
+    ProductsApiUrl: http://Microservices.Demo.Product.API/api/Products 
 RabbitMQSettings:
     Username: admin
     Password: admin
